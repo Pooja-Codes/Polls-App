@@ -17,6 +17,7 @@ script:
   - black .
   - python -m black . --check
   - flake8 mysite
+  - python manage.py test
   - python -m coverage run --source='.' manage.py test
 
 after_success:
