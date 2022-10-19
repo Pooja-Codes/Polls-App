@@ -2,6 +2,10 @@ os: linux
 
 language: python
 
+env:
+  SECRET_KEY:
+    secure: $SECRET_KEY
+
 python:
   - 3.7
 
@@ -20,3 +24,18 @@ after_success:
 
 before_deploy: "echo 'ready?'"
 
+deploy:
+  provider: elasticbeanstalk
+  access_key_id: $AWS_ID
+  secret_access_key: $AWS_KEY
+  region: us-west-2
+  app: mysite
+  env: django-env
+  bucket_name: $AWS_BUCKET
+  on:
+    repo: Pooja-Codes/swe1-app 
+    branch: main
+  skip_cleanup: true
+
+after_deploy:
+  - "Message : Deployment Successful!"
