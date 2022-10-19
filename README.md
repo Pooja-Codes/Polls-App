@@ -1,4 +1,4 @@
-# swe1-app Version 2
+# swe1-app version 2
 
 [![Build Status](https://app.travis-ci.com/Pooja-Codes/swe1-app.svg?branch=main)](https://app.travis-ci.com/Pooja-Codes/swe1-app)
 [![Coverage Status](https://coveralls.io/repos/github/Pooja-Codes/swe1-app/badge.svg?branch=main)](https://coveralls.io/github/Pooja-Codes/swe1-app?branch=main)
