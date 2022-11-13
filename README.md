@@ -5,4 +5,7 @@
 
 #### Course : CS-GY 6063 Software Engineering, Fall 2022 💻
 #### Course Assignment : Django Polls Application - [Tutorial Exercise](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) 
-#### Live on AWS : [Poll](http://django-env.eba-vu973npu.us-west-2.elasticbeanstalk.com/) || [AdminView](http://django-env.eba-vu973npu.us-west-2.elasticbeanstalk.com/admin/) || [Que1Vote](http://django-env.eba-vu973npu.us-west-2.elasticbeanstalk.com/1/) || [Que1Results](http://django-env.eba-vu973npu.us-west-2.elasticbeanstalk.com/1/results/) || [Que2Vote](http://django-env.eba-vu973npu.us-west-2.elasticbeanstalk.com/2/) || [Que2Result](http://django-env.eba-vu973npu.us-west-2.elasticbeanstalk.com/2/results/)
+
+
+https://user-images.githubusercontent.com/87775823/201500296-bb52103c-eed1-4922-af6d-81498407c098.mp4
+
